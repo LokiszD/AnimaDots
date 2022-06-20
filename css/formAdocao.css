@@ -1,0 +1,48 @@
+.container-sm {
+    background-color: rgb(255 255 255);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(186 186 186 / 57%);
+}
+
+h1 {
+    color: #333;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+.animal-input-radio {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pata {
+    color: red;
+}
+
+.infoInt {
+    font-weight: bold;
+    color: #333;
+    background-color: transparent;
+}
+
+.infoLei {
+    border-style: dashed;
+    border-color: blueviolet;
+    margin: 0 auto;
+    width: 50%;
+    align-self: center;
+    padding: 5px;
+    text-align: justify;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: 5px;
+}

@@ -1,0 +1,144 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.693), rgba(255, 255, 255, 0.604)), url("../assets/bg.png");
+    font-family: 'Noto Serif', serif;
+}
+
+.container {
+    background: linear-gradient(#00fda5, #81fff990);
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px #6666ff;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 20pt;
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+.conteudo .input-div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 100px;
+    padding: 5px 0;
+    border-bottom: 2px solid #8c52ff;
+}
+
+.conteudo .input-div.email {
+    margin-top: 0;
+}
+
+.i {
+    color: #8c52ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i i {
+    transition: .3s;
+}
+
+.input-div>div {
+    position: relative;
+    height: 45px;
+}
+
+.input-div>div>h5 {
+    position: absolute;
+    left: 20px;
+    top: -15%;
+    transform: translateY(-50%);
+    color: #8c52ff;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.input-div:before,
+.input-div:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: #ff914d;
+    transition: .4s;
+}
+
+.input-div:before {
+    right: 50%;
+}
+
+.input-div:after {
+    left: 50%;
+}
+
+.input-div.focus:before,
+.input-div.focus:after {
+    width: 50%;
+}
+
+.input-div.focus>div>h5 {
+    top: -30px;
+    font-size: 15px;
+    color: #ff914d;
+}
+
+.input-div.focus>.i>i {
+    color: #ff914d;
+}
+
+.input-div>div>input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #8c52ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15pt;
+    margin-top: 20px;
+    padding: 10px 70px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: #ff914d;
+    color: #333;
+}

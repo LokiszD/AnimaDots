@@ -1,0 +1,27 @@
+.info {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    background-color: transparent !important;
+}
+
+.infoP {
+    text-align: center;
+    font-size: 17px;
+}
+
+.infoBanco {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(192, 180, 204, 0.40);
+    border-radius: 10px;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 350px;
+}
+
+.qrCode {
+    max-width: 500px;
+    height: auto;
+}

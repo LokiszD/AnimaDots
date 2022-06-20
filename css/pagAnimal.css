@@ -1,0 +1,53 @@
+.container-sm {
+    background-color: rgb(255 255 255);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(186 186 186 / 57%);
+    font-family: Poppins;
+    color: #ba80fd;
+}
+
+.card {
+    width: fit-content;
+    height: auto;
+    margin: auto;
+}
+
+.nome {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.infoAnimal {
+    font-size: 18px;
+}
+
+.descricao {
+    margin-top: 30px;
+    color: darkgrey;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.foto-animal {
+    width: 620px;
+    height: auto;
+}
+
+.botao {
+    float: right;
+    margin-right: 70px;
+    margin-top: 25px;
+}
+
+.botao img {
+    border-radius: 50%;
+    max-height: 150px;
+    width: auto;
+    border: 4px solid #ba80fd;
+}
+
+.botao p {
+    text-align: center;
+}

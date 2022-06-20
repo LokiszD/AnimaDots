@@ -1,0 +1,31 @@
+body {
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 95, 51);
+    background: linear-gradient(rgba(255, 255, 255, 0.693), rgba(255, 255, 255, 0.604)), url("../assets/bg.png");
+}
+
+.container-sm {
+    background-color: rgb(255 255 255);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(186 186 186 / 57%);
+}
+
+h1 {
+    color: #333;
+}
+
+#mostraSenha {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.col-6 {
+    margin-left: 270px;
+}
+
+#alterarDados {
+    margin-left: 250px;
+}
